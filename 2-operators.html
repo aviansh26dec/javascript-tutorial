@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <style>
+        .code{
+            background-color: #e6e6e6; color:red; font-weight: bold; border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><h2>Operators</h2></p>
+        <p>
+            In JavaScript, operators are symbols or special characters that perform operations on operands (values or variables). They allow you to manipulate data, perform arithmetic calculations, make comparisons, and more. JavaScript supports various types of operators, which can be categorized into different groups:
+        </p>
+        <p>
+            <ul>
+                <li> 1. <a href="#" onclick="arithmeticOperator()">Arithmetic Operators:</a>
+                    <ul>
+                        <li>Addition: +</li>
+                        <li>Subtraction: -</li>
+                        <li>Multiplication: *</li>
+                        <li>Division: /</li>
+                        <li>Remainder (Modulus): %</li>
+                        <li>Increment: ++</li>
+                        <li>Decrement: --</li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    var a = 5;
+                    var b = 6;
+
+                    a = a+1;
+                    a = a-1;
+                    a = a * 1;
+                    a = a/1;
+                    a = a%1;
+                    a++;
+                    a--;
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 2. Assignment Operators:
+                    <ul>
+                        <li>Assignment: =</li>
+                        <li>Add and Assign: +=</li>
+                        <li>Subtract and Assign: -=</li>
+                        <li>Multiply and Assign: *=</li>
+                        <li>Divide and Assign: /=</li>
+                        <li>Modulus and Assign: %=</li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    var a = 5;
+                    var b;
+
+                    b = a;
+                    a+=1;
+                    a-1=1;
+                    a*=2;
+                    a/=2;
+                    a%=2;
+                </code>
+            </pre>
+        </p>
+    </div>
+
+
+    <script>
+        function arithmeticOperator(){
+            var a = 5;
+            var b = 6;
+
+            alert('a = '+a);
+            alert('b = '+b);
+            a = a+1;
+            alert('a = a+1 = '+a);
+            a = a-1;
+            alert('a = a-1 = '+a);
+            a = a * 1;
+            alert('a = a*1 = '+a);
+            a = a/1;
+            alert('a = a/1 = '+a);
+            a = a%1;
+            alert('a = a%1 = '+a);
+            a++;
+            alert('a++ = '+a);
+            a--;
+            alert('a-- = '+a);
+        }
+    </script>
+</body>
+</html>

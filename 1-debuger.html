@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugger In Javascript</title>
+</head>
+<body>
+    <!-- 
+        The debugger is used to debug the code. The remaining section of the code shoud stop execution before mooving on to the next line while debuging. 
+        If the browser is not supported the debugger than debugger is will not work.
+    -->
+
+    <script>
+        star();
+
+        function star(){
+            var noOfStars = 5;
+            for(var i = 1; i <= noOfStars; i++){
+                debugger;
+                for(var j = i; j<= noOfStars; j++){
+                    document.write('*');
+                }
+                document.write("<br/>");
+            }
+        }
+    </script>
+</body>
+</html>
