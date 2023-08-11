@@ -21,7 +21,7 @@
         </p>
         <p>
             <ul>
-                <li> 1. <a href="#" onclick="arithmeticOperator()">Arithmetic Operators:</a>
+                <li> 1. <a href="#arithmetic" id="arithmetic" onclick="arithmeticOperator()">Arithmetic Operators:</a>
                     <ul>
                         <li>Addition: +</li>
                         <li>Subtraction: -</li>
@@ -50,7 +50,7 @@
         </p>
         <p>
             <ul>
-                <li> 2. Assignment Operators:
+                <li> 2. <a href="#assignment" id="assignment" onclick="assignmentOperator()">Assignment Operators:</a>
                     <ul>
                         <li>Assignment: =</li>
                         <li>Add and Assign: +=</li>
@@ -72,6 +72,114 @@
                     a*=2;
                     a/=2;
                     a%=2;
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 3. <a href="#comparison" id="comparison">Comparison Operators:</a>
+                    <ul>
+                        <li>Equal to: ==</li>
+                        <li>Not equal to: !=</li>
+                        <li>Strict equal to: ===</li>
+                        <li>Strict not equal to: !==</li>
+                        <li>Greater than: ></li>
+                        <li>Greater than or equal to: >=</li>
+                        <li>Less than: < </li>
+                        <li>Less than or equal to: <=</li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    let isEqual = a === b; // Strict equality comparison
+                    let isGreater = a > b; // Greater than comparison
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 4. <a href="#logical" id="logical">Logical Operators:</a>
+                    <ul>
+                        <li>Logical AND: &&</li>
+                        <li>Logical OR: ||</li>
+                        <li>Logical NOT: !</li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 4. <a href="#bitwise" id="bitwise">Bitwise Operators:</a>
+                    <ul>
+                        <li>Bitwise AND: &</li>
+                        <li>Bitwise OR: |</li>
+                        <li>Bitwise XOR: ^</li>
+                        <li>Bitwise NOT: ~</li>
+                        <li>Left Shift: <<</li>
+                        <li>Right Shift: >></li>
+                        <li>Unsigned Right Shift: >>></li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 5. <a href="#bitwise" id="bitwise">Bitwise Operators:</a>
+                    <ul>
+                        <li>Bitwise AND: &</li>
+                        <li>Bitwise OR: |</li>
+                        <li>Bitwise XOR: ^</li>
+                        <li>Bitwise NOT: ~</li>
+                        <li>Left Shift: <<</li>
+                        <li>Right Shift: >></li>
+                        <li>Unsigned Right Shift: >>></li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 6. <a href="#ternary" id="ternary">Ternary (Conditional) Operator:</a>
+                    <ul>
+                        <li>The ternary operator is the only JavaScript operator that takes three operands. It is a shorthand for the if-else statement.</li>
+                        <li>Syntax: condition ? expression1 : expression2</li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    
+                </code>
+            </pre>
+        </p>
+        <p>
+            <ul>
+                <li> 6. <a href="typeoperators" id="typeoperators">Type Operators:</a>
+                    <ul>
+                        <li>typeof: Returns the data type of a variable.</li>
+                        <li>instanceof: Checks whether an object is an instance of a specific class.</li>
+                    </ul>
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    
                 </code>
             </pre>
         </p>
@@ -99,6 +207,26 @@
             alert('a++ = '+a);
             a--;
             alert('a-- = '+a);
+        }
+
+        function assignmentOperator(){
+            var a = 5;
+            alert('a= '+a);
+            var b;
+            alert('b= '+b);
+
+            b = a;
+            alert('b = a :'+b);
+            b+=1;
+            alert('b+=1 :'+b);
+            b-=1;
+            alert('b-=1 :'+b);
+            b*=2;
+            alert('b*=2 :'+b);
+            b/=2;
+            alert('b/=2 :'+b);
+            b%=2;
+            alert('b%=2 :'+b);
         }
     </script>
 </body>
