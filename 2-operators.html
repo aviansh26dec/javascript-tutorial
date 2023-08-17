@@ -14,12 +14,13 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container mb-5">
         <p><h2>Operators</h2></p>
         <p>
             In JavaScript, operators are symbols or special characters that perform operations on operands (values or variables). They allow you to manipulate data, perform arithmetic calculations, make comparisons, and more. JavaScript supports various types of operators, which can be categorized into different groups:
         </p>
         <p>
+            <b>Primitive type:</b>
             <ul>
                 <li> 1. <a href="#arithmetic" id="arithmetic" onclick="arithmeticOperator()">Arithmetic Operators:</a>
                     <ul>
@@ -183,6 +184,34 @@
                 </code>
             </pre>
         </p>
+        <p>
+            <b>Non-primitive types:</b>
+            <ul>
+                <li>
+                    Primitive data types can store only a single value. To store multiple and complex values, non-primitive data types are used.
+                </li>
+                <li>
+                    Object - Used to store collection of data.
+                </li>
+            </ul>
+            <pre class="code">
+                <code>
+                    // Collection of data in key-value pairs
+                        var obj1 = {
+                            x: 43,
+                            y: "Hello world!",
+                            z: function(){
+                            return this.x;
+                        }
+                    }
+                    // Collection of data as an ordered list
+                    var array1 = [5, "Hello", true, 4.1];
+                </code>
+            </pre>
+        </p>
+        
+        <a href="index.html" class="btn btn-success btn-sm"><< Prev Page</a>
+        <a href="3-Hoisting.html" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 
 

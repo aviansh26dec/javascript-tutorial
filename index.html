@@ -15,6 +15,7 @@
 
         #resultOutput{
             display: table;
+            padding-left: 10%;
         }
     </style>
     
@@ -48,15 +49,14 @@
         <p id="output">Output: To debug this code open console and <a href="#output" onclick="star()">click</a> here.</p>
         <p>
             <pre class="code">
-                <code id="resultOutput">
-                </code>
+                <code id="resultOutput"></code>
             </pre>
         </p>
+        <a href="2-operators.html" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 
     <script>
         function star(){
-            alert();
             var noOfStars = 5;
             for(var i = 1; i <= noOfStars; i++){
                 debugger;
