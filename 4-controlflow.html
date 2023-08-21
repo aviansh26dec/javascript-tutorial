@@ -24,49 +24,86 @@
     <div class="container">
         <h2>Control Flow</h2>
         <p>
-            Hoisting is a concept in JavaScript that refers to the behavior of moving variable and function declarations to the top of their containing scope during the compilation phase, before the code is actually executed. This can sometimes lead to unexpected results if you're not aware of how it works.
+            Control flow in JavaScript refers to the order in which statements and expressions are executed in a program. It determines how the program progresses from one statement to another based on certain conditions. JavaScript provides several control flow structures that allow you to manage the flow of your code.
         </p>
-        <p>In JavaScript, variable declarations are hoisted, but not their assignments. This means that the variable name is moved to the top of the scope, but its value is not assigned until the original line of code is executed. Let's look at an example:</p>
+        <p>Here are some key aspects of control flow in JavaScript:</p>
+        <p>
+            <b>1. Conditional Statements:</b>
+            <ul>
+                <li>`if`: Executes a block of code if a given condition is true.</li>
+                <li>`else`: Executes a block of code if the condition in an `if` statement is false.</li>
+                <li>`else if`: Allows you to check multiple conditions in sequence.</li>
+                <li>`switch`: Allows you to choose between different blocks of code based on the value of an expression.</li>
+            </ul>
+            <b>Example using `if` and `else`:</b>
+        </p>
         <p>
             <pre class="code">
                 <code>
                     &lt;script&gt;
-                        console.log(x); // Output: undefined
-                        var x = 10;
-                        console.log(x); // Output: 10
-                    &lt;/script&gt;
-                </code>
-            </pre>
-        </p>
-        <p>In this example, the var x declaration is hoisted to the top of the scope, so the first console.log(x) outputs undefined. The assignment of x = 10 happens later, and the second console.log(x) outputs 10.</p>
-        <p>Function declarations are also hoisted. This means you can call a function before its actual declaration in the code:</p>
-        <p>
-            <pre class="code">
-                <code id="resultOutput">
-                    &lt;script&gt;
-                        foo(); // Output: "Hello, world!"
-                        function foo() {
-                        console.log("Hello, world!");
+                        var age = 18;
+
+                        if (age >= 18) {
+                        console.log("You are an adult.");
+                        } else {
+                        console.log("You are a minor.");
                         }
                     &lt;/script&gt;
                 </code>
             </pre>
         </p>
-        <p>However, function expressions (anonymous functions assigned to variables) are not fully hoisted. Only the variable declaration is hoisted, not the function assignment:</p>
+        <p>
+            <b>2. Loops:</b>
+            <ul>
+                <li>`for`: Repeats a block of code for a specific number of times.</li>
+                <li>`while`: Repeats a block of code while a condition is true.</li>
+                <li>`do...while`: Similar to `while`, but ensures that the block of code is executed at least once.</li>
+                <li>`for...in`: Iterates over the properties of an object.</li>
+                <li>`for...of`: Iterates over the values of an iterable object (e.g., arrays, strings).</li>
+            </ul>
+            <b>Example using `for` loop:</b>
+        </p>
         <p>
             <pre class="code">
-                <code id="resultOutput">
+                <code>
                     &lt;script&gt;
-                        bar(); // Error: bar is not a function
-                        var bar = function() {
-                        console.log("Hello from bar!");
-                        };
+                    for (var i = 1; i <= 5; i++) {
+                        console.log(i);
+                    }
                     &lt;/script&gt;
                 </code>
             </pre>
         </p>
-        <p>To avoid confusion and potential issues, it's a good practice to declare your variables and functions before you use them. Modern JavaScript (ES6 and later) introduced let and const for variable declarations, which have block-level scoping and do not hoist in the same way as var.</p>
-        <p>To summarize, hoisting is a mechanism in JavaScript where variable and function declarations are moved to the top of their scope during compilation. Understanding how hoisting works can help you write more predictable and maintainable code.</p>
+        <p>
+            <b>3. Jump Statements:</b>
+            <ul>
+                <li>`break`: Terminates the current loop or switch statement and transfers control to the statement immediately following the loop or switch.</li>
+                <li>`continue`: Ends the current iteration of a loop and jumps to the next iteration.</li>
+                <li>`return`: Exits the current function and optionally provides a value to the caller.</li>
+            </ul>
+            <b>Example using `break` and `continue`:</b>
+        </p>
+
+        <p>
+            <pre class="code">
+                <code>
+                    &lt;script&gt;
+                    for (var i = 1; i <= 10; i++) {
+                        if (i === 5) {
+                          continue; // Skip iteration if i is 5
+                        }
+                        if (i === 8) {
+                          break; // Exit loop if i is 8
+                        }
+                        console.log(i);
+                    }
+                    &lt;/script&gt;
+                </code>
+            </pre>
+        </p>
+        <p>
+            Control flow structures enable you to create dynamic and responsive programs by making decisions and controlling how your code is executed under different conditions. Properly understanding and utilizing control flow is essential for writing effective and efficient JavaScript code.
+        </p>
         <a href="3-Hoisting.html" class="btn btn-success btn-sm"><< Prev Page</a>
         <a href="4-controlflow.html" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
