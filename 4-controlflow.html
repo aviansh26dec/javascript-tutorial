@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoisting</title>
+    <title>Control Flow</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -105,28 +105,7 @@
             Control flow structures enable you to create dynamic and responsive programs by making decisions and controlling how your code is executed under different conditions. Properly understanding and utilizing control flow is essential for writing effective and efficient JavaScript code.
         </p>
         <a href="3-Hoisting.html" class="btn btn-success btn-sm"><< Prev Page</a>
-        <a href="4-controlflow.html" class="btn btn-success btn-sm float-end">Next Page >></a>
+        <a href="5-function.html" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
-
-    <script>
-        console.log("Output of first code");
-        console.log(x); // Output: undefined
-        var x = 10;
-        console.log(x); // Output: 10
-
-        console.log("=========================");
-        console.log("Output of first code");
-        foo(); // Output: "Hello, world!"
-        function foo() {
-        console.log("Hello, world!");
-        }
-
-        console.log("=========================");
-        console.log("Output of third code");
-        bar(); // Error: bar is not a function
-        var bar = function() {
-        console.log("Hello from bar!");
-        };
-    </script>
 </body>
 </html>
