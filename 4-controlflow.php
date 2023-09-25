@@ -104,8 +104,8 @@
         <p>
             Control flow structures enable you to create dynamic and responsive programs by making decisions and controlling how your code is executed under different conditions. Properly understanding and utilizing control flow is essential for writing effective and efficient JavaScript code.
         </p>
-        <a href="3-Hoisting.html" class="btn btn-success btn-sm"><< Prev Page</a>
-        <a href="5-function.html" class="btn btn-success btn-sm float-end">Next Page >></a>
+        <a href="3-Hoisting.php" class="btn btn-success btn-sm"><< Prev Page</a>
+        <a href="5-function.php" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 </body>
 </html>

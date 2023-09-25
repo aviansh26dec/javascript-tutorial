@@ -79,8 +79,8 @@
         </p>
         <p>To avoid confusion and potential issues, it's a good practice to declare your variables and functions before you use them. Modern JavaScript (ES6 and later) introduced let and const for variable declarations, which have block-level scoping and do not hoist in the same way as var.</p>
         <p>To summarize, hoisting is a mechanism in JavaScript where variable and function declarations are moved to the top of their scope during compilation. Understanding how hoisting works can help you write more predictable and maintainable code.</p>
-        <a href="2-operators.html" class="btn btn-success btn-sm"><< Prev Page</a>
-        <a href="4-controlflow.html" class="btn btn-success btn-sm float-end">Next Page >></a>
+        <a href="2-operators.php" class="btn btn-success btn-sm"><< Prev Page</a>
+        <a href="4-controlflow.php" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 
     <script>

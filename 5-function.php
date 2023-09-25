@@ -266,8 +266,8 @@
             </pre>
         </p>
         <p>Functions are a fundamental building block of JavaScript programming. They enable code reuse, encapsulation, and help in creating structured and maintainable applications.</p>
-        <a href="4-controlflow.html" class="btn btn-success btn-sm"><< Prev Page</a>
-        <a href="4-controlflow.html" class="btn btn-success btn-sm float-end">Next Page >></a>
+        <a href="4-controlflow.php" class="btn btn-success btn-sm"><< Prev Page</a>
+        <a href="6-array.php" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 
     <script>

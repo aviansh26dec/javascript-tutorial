@@ -52,7 +52,7 @@
                 <code id="resultOutput"></code>
             </pre>
         </p>
-        <a href="2-operators.html" class="btn btn-success btn-sm float-end">Next Page >></a>
+        <a href="2-operators.php" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 
     <script>

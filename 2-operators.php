@@ -210,8 +210,8 @@
             </pre>
         </p>
         
-        <a href="index.html" class="btn btn-success btn-sm"><< Prev Page</a>
-        <a href="3-Hoisting.html" class="btn btn-success btn-sm float-end">Next Page >></a>
+        <a href="index.php" class="btn btn-success btn-sm"><< Prev Page</a>
+        <a href="3-Hoisting.php" class="btn btn-success btn-sm float-end">Next Page >></a>
     </div>
 
 
